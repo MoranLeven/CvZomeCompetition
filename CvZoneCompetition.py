@@ -62,8 +62,8 @@ while True:
                 print("car is detected:" + str (cars))
     cv2.putText(frame1, "Moran 11", (850, 100), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 5)
     cv2.putText(frame1, str(cars), (1700, 100), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 5)
-    cv2.imshow("Original Video", frame1)
-    cv2.imshow("Detected", dilated)
+    cv2.imshow("Surveillance Video", frame1)
+    
 
     if cv2.waitKey (10) == 27:
         break
